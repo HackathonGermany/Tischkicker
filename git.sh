@@ -1,3 +1,4 @@
 git add *
-git commit -m $1
+git stage *
+git commit -m "[sc]: "+$1
 git push origin master
